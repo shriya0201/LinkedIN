@@ -40,7 +40,7 @@ public class StepDefinitionsDemo {
 	@When("User clicks on th Sign-in button")
 	public void user_clicks_on_th_sign_in_button() throws InterruptedException {
 		//driver.findElement(By.xpath("//button[@type='submit']")).click();
-		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(20));
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		//WebElement sigin= wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@type='submit']")));
 //		WebElement sigin = driver.findElement(By.xpath("//button[@type='submit']"));
 //		sigin.click();
